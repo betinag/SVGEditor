@@ -1,6 +1,6 @@
 # SVGEditor
 
-SVGEditor is an application that works with Scalable Vector Graphics (SVG) files. It loads shapes from a file, performs operations on them, and then saves the changes back to the disk. Lines, circles and rectangles are supported.
+SVGEditor is an application that works with Scalable Vector Graphics (SVG) files. It loads shapes from a file, performs operations on them and then saves the changes back to the disk. Lines, circles and rectangles are supported.
 
 ## Commands:
 - print - Prints all shapes on the screen.
