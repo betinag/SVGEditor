@@ -9,11 +9,11 @@ void SVGEditor::run()
 		std::cout << "> ";
 		std::getline(std::cin, input);
 		ArgsVector args;
-        if (!parseInput(input, args))
-        {
-            std::cout << "Invalid input\n";
-            continue;
-        }
+		if (!parseInput(input, args))
+		{
+		    std::cout << "Invalid input\n";
+		    continue;
+		}
 
 		std::string command = args[0];
 		if (command == "print")
